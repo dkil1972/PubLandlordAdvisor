@@ -8,7 +8,7 @@
 // Creating the widget 
 
 function promotionContent() {
-    return '<div class="promotion aligncenter"><img style="display:block;width:100%;" src="http://localhost:8000/wp-content/uploads/2017/01/LANDLORD-1.jpg" /></div> ';
+    return '<div class="promotion aligncenter"><a href="http://publandlordadvisor.uk/academy"><img style="display:block;width:100%;" src="http://publandlordadvisor.uk/wp-content/uploads/2017/02/Pub-Landlord_Advisor-Academy.jpg" /></a></div> ';
 }
 
 add_shortcode('promotion', 'promotionContent');
